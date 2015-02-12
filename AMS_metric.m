@@ -13,8 +13,8 @@
 function [AMS, s, b, NPtot] = AMS_metric(P, S, verbose)
 %   AMS calculation:
 %   inputs:
-%       P: prediction vector [labels(s=1, b=1)]
-%       S: solution array Nx2 [weigths, labels(s=1, b=1)]
+%       P: prediction vector [labels(s=1, b=0)]
+%       S: solution array Nx2 [weigths, labels(s=1, b=0)]
 %       verbose: display information {on=1, off=0}
 %   outputs:
 %       AMS: approximate median significance
