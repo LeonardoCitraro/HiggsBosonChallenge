@@ -7,7 +7,7 @@
 %   
 %   Citraro L., Perodou A., Roullier B., Iyengar A.
 %   Start: 12.02.2015 
-%   End: 
+%   End: 04.05.2015
 %======================================================
 %%
 function [AMS, s, b, NPtot] = AMS_metric(P, S, verbose)
@@ -20,6 +20,7 @@ function [AMS, s, b, NPtot] = AMS_metric(P, S, verbose)
 %       AMS: approximate median significance
 %       s: sum of signal weights
 %       b: sum of background weights
+%       NPtot: length prediction vector
 
     NPtot = length(P);
     NStot = length(S);
